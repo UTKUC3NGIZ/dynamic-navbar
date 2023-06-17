@@ -1,0 +1,133 @@
+{
+    "navbarColor": "bg-blue-500",
+    "buttons": [
+      {
+        "text": "Anasayfa",
+        "link": "#",
+        "order": 1,
+        "css": "",
+        "functionType": "mainButton"
+      },
+      {
+        "text": "Hizmetlerimiz",
+        "link": "#",
+        "order": 2,
+        "css": "",
+        "functionType": "parentButton",
+        "childButtons": [
+          {
+            "text": "Teknik Hizmetlerimiz",
+            "link": "#",
+            "order": 1,
+            "css": "",
+            "functionType": "childButton"
+          },
+          {
+            "text": "Danışmanlık Hizmetlerimiz",
+            "link": "#",
+            "order": 2,
+            "css": "",
+            "functionType": "childButton",
+            "childButtons": [
+              {
+                "text": "Danışmanlık Eğitimleri",
+                "link": "#",
+                "order": 1,
+                "css": "",
+                "functionType": "childButton"
+              }
+            ]
+          },
+          {
+            "text": "Hatalı Altyapı Onarımı",
+            "link": "#",
+            "order": 3,
+            "css": "",
+            "functionType": "childButton"
+          }
+        ]
+      },
+      {
+        "text": "Hakkımızda",
+        "link": "#",
+        "order": 3,
+        "css": "",
+        "functionType": "parentButton",
+        "childButtons": [
+          {
+            "text": "Biz Kimiz?",
+            "link": "#",
+            "order": 1,
+            "css": "",
+            "functionType": "childButton"
+          },
+          {
+            "text": "Kurumsal",
+            "link": "#",
+            "order": 2,
+            "css": "",
+            "functionType": "childButton"
+          },
+          {
+            "text": "Referanslarımız",
+            "link": "#",
+            "order": 3,
+            "css": "",
+            "functionType": "childButton",
+            "childButtons": [
+              {
+                "text": "Geçmiş Referanslar",
+                "link": "#",
+                "order": 1,
+                "css": "",
+                "functionType": "childButton"
+              },
+              {
+                "text": "Gelecek Referanslar",
+                "link": "#",
+                "order": 2,
+                "css": "",
+                "functionType": "childButton"
+              }
+            ]
+          },
+          {
+            "text": "Vizyon",
+            "link": "#",
+            "order": 4,
+            "css": "",
+            "functionType": "childButton"
+          },
+          {
+            "text": "Misyon",
+            "link": "#",
+            "order": 5,
+            "css": "",
+            "functionType": "childButton"
+          }
+        ]
+      },
+      {
+        "text": "İletişim",
+        "link": "#",
+        "order": 4,
+        "css": "",
+        "functionType": "mainButton"
+      },
+      {
+        "text": "Kayıt Ol",
+        "link": "#",
+        "order": 5,
+        "css": "",
+        "functionType": "mainButton"
+      },
+      {
+        "text": "Giriş Yap",
+        "link": "#",
+        "order": 6,
+        "css": "",
+        "functionType": "mainButton"
+      }
+    ]
+  }
+  
