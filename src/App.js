@@ -2,17 +2,40 @@ import { useState } from "react";
 import jsonData from "./data/data.json";
 
 function App() {
-  const [button, setButton] = useState(jsonData);
-  console.log(button)
-  console.log(button)
   return (
-    <div>
-      <nav>
-        {button.buttons.map((deneme, index) => (
-          <div key={index}>{deneme.text}</div>
+    <nav className="px-56 py-10">
+      <ul className="flex flex-row justify-between">
+        {jsonData.buttons.map((buttons, index) => (
+          <li key={index} className={buttons.css}>
+            <a href="">{buttons.text}</a>
+            {typeof buttons.parentButton === "object" ? (
+              <ul>
+                {buttons.parentButton.map((parentButton, index) => (
+                  <li key={index}>
+                    <a href="">{parentButton.text}</a>
+                    {typeof parentButton.childButtons === "object" ? (
+                      <ul>
+                        {parentButton.childButtons.map(
+                          (childButtons, index) => (
+                            <li key={index}>
+                              <a href="">{childButtons.text}</a>
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    ) : (
+                      ""
+                    )}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              ""
+            )}
+          </li>
         ))}
-      </nav>
-    </div>
+      </ul>
+    </nav>
   );
 }
 

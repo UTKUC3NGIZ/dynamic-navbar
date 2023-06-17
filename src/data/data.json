@@ -1,133 +1,259 @@
 {
-    "navbarColor": "bg-blue-500",
-    "buttons": [
-      {
-        "text": "Anasayfa",
-        "link": "#",
-        "order": 1,
-        "css": "",
-        "functionType": "mainButton"
-      },
-      {
-        "text": "Hizmetlerimiz",
-        "link": "#",
-        "order": 2,
-        "css": "",
-        "functionType": "parentButton",
-        "childButtons": [
-          {
-            "text": "Teknik Hizmetlerimiz",
-            "link": "#",
-            "order": 1,
-            "css": "",
-            "functionType": "childButton"
-          },
-          {
-            "text": "Danışmanlık Hizmetlerimiz",
-            "link": "#",
-            "order": 2,
-            "css": "",
-            "functionType": "childButton",
-            "childButtons": [
-              {
-                "text": "Danışmanlık Eğitimleri",
-                "link": "#",
-                "order": 1,
-                "css": "",
-                "functionType": "childButton"
-              }
-            ]
-          },
-          {
-            "text": "Hatalı Altyapı Onarımı",
-            "link": "#",
-            "order": 3,
-            "css": "",
-            "functionType": "childButton"
-          }
-        ]
-      },
-      {
-        "text": "Hakkımızda",
-        "link": "#",
-        "order": 3,
-        "css": "",
-        "functionType": "parentButton",
-        "childButtons": [
-          {
-            "text": "Biz Kimiz?",
-            "link": "#",
-            "order": 1,
-            "css": "",
-            "functionType": "childButton"
-          },
-          {
-            "text": "Kurumsal",
-            "link": "#",
-            "order": 2,
-            "css": "",
-            "functionType": "childButton"
-          },
-          {
-            "text": "Referanslarımız",
-            "link": "#",
-            "order": 3,
-            "css": "",
-            "functionType": "childButton",
-            "childButtons": [
-              {
-                "text": "Geçmiş Referanslar",
-                "link": "#",
-                "order": 1,
-                "css": "",
-                "functionType": "childButton"
-              },
-              {
-                "text": "Gelecek Referanslar",
-                "link": "#",
-                "order": 2,
-                "css": "",
-                "functionType": "childButton"
-              }
-            ]
-          },
-          {
-            "text": "Vizyon",
-            "link": "#",
-            "order": 4,
-            "css": "",
-            "functionType": "childButton"
-          },
-          {
-            "text": "Misyon",
-            "link": "#",
-            "order": 5,
-            "css": "",
-            "functionType": "childButton"
-          }
-        ]
-      },
-      {
-        "text": "İletişim",
-        "link": "#",
-        "order": 4,
-        "css": "",
-        "functionType": "mainButton"
-      },
-      {
-        "text": "Kayıt Ol",
-        "link": "#",
-        "order": 5,
-        "css": "",
-        "functionType": "mainButton"
-      },
-      {
-        "text": "Giriş Yap",
-        "link": "#",
-        "order": 6,
-        "css": "",
-        "functionType": "mainButton"
-      }
-    ]
-  }
-  
+  "navbarColor": "bg-blue-500",
+  "buttons": [
+    {
+      "text": "Anasayfa",
+      "link": "/anasayfa",
+      "order": 1,
+      "css": "text-black",
+      "functionType": "mainButton"
+    },
+    {
+      "text": "Hizmetlerimiz",
+      "link": "/hizmetler",
+      "order": 2,
+      "css": "text-black",
+      "functionType": "mainButton",
+      "parentButton": [
+        {
+          "text": "Teknik Hizmetlerimiz",
+          "link": "/teknik-hizmetler",
+          "order": 1,
+          "css": "text-black",
+          "functionType": "parentButton",
+          "childButtons": [
+            {
+              "text": "Frontend Teknolojileri",
+              "link": "/frontend-teknolojileri",
+              "order": 1,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "Backend Teknolojileri",
+              "link": "/backend-teknolojileri",
+              "order": 2,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "AWS Hizmetleri",
+              "link": "/aws-hizmetleri",
+              "order": 3,
+              "css": "text-black",
+              "functionType": "childButton"
+            }
+          ]
+        },
+        {
+          "text": "Danışmanlık Hizmetlerimiz",
+          "link": "/danismanlik-hizmetleri",
+          "order": 2,
+          "css": "text-black",
+          "functionType": "parentButton",
+          "childButtons": [
+            {
+              "text": "Teknik Destek",
+              "link": "/teknik-destek",
+              "order": 1,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "Bilgilendirme Hizmetleri",
+              "link": "/bilgilendirme-hizmetleri",
+              "order": 2,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "Mentorluk Hizmetleri",
+              "link": "/mentorluk-hizmetleri",
+              "order": 3,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "Danışmanlık Eğitimleri",
+              "link": "/danismanlik-egitimleri",
+              "order": 4,
+              "css": "text-black",
+              "functionType": "childButton",
+              "childButtons": [
+                {
+                  "text": "Sertifikalı Danışmanlık Hizmeti",
+                  "link": "/sertifikali-danismanlik-hizmeti",
+                  "order": 1,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                },
+                {
+                  "text": "Kurumsal Danışmanlık Hizmeti",
+                  "link": "/kurumsal-danismanlik-hizmeti",
+                  "order": 2,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                }
+              ]
+            },
+            {
+              "text": "Eğitim Öğretim Planlama",
+              "link": "/egitim-ogretim-planlama",
+              "order": 5,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "Yazılım Danışmanlığı",
+              "link": "/yazilim-danismanligi",
+              "order": 6,
+              "css": "text-black",
+              "functionType": "childButton"
+            },
+            {
+              "text": "Proje Danışmanlığı",
+              "link": "/proje-danismanligi",
+              "order": 7,
+              "css": "text-black",
+              "functionType": "childButton"
+            }
+          ]
+        },
+        {
+          "text": "Hatalı Altyapı Onarımı",
+          "link": "/altyapi-onarimi",
+          "order": 3,
+          "css": "text-black",
+          "functionType": "parentButton"
+        }
+      ]
+    },
+    {
+      "text": "Hakkımızda",
+      "link": "/hakkimizda",
+      "order": 3,
+      "css": "text-black",
+      "functionType": "mainButton",
+      "parentButton": [
+        {
+          "text": "Biz Kimiz?",
+          "link": "/biz-kimiz",
+          "order": 1,
+          "css": "text-black",
+          "functionType": "childButton"
+        },
+        {
+          "text": "Kurumsal",
+          "link": "/kurumsal",
+          "order": 2,
+          "css": "text-black",
+          "functionType": "childButton"
+        },
+        {
+          "text": "Referanslarımız",
+          "link": "/referanslarimiz",
+          "order": 3,
+          "css": "text-black",
+          "functionType": "parentButton",
+          "childButtons": [
+            {
+              "text": "Geçmiş Referanslar",
+              "link": "/gecmis-referanslar",
+              "order": 1,
+              "css": "text-black",
+              "functionType": "childButton",
+              "childButtons": [
+                {
+                  "text": "x referansı",
+                  "link": "/x-referansi",
+                  "order": 1,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                },
+                {
+                  "text": "y referansı",
+                  "link": "/y-referansi",
+                  "order": 2,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                },
+                {
+                  "text": "z referansı",
+                  "link": "/z-referansi",
+                  "order": 3,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                }
+              ]
+            },
+            {
+              "text": "Gelecek Referanslar",
+              "link": "/gelecek-referanslar",
+              "order": 2,
+              "css": "text-black",
+              "functionType": "childButton",
+              "childButtons": [
+                {
+                  "text": "a referansı",
+                  "link": "/a-referansi",
+                  "order": 1,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                },
+                {
+                  "text": "b referansı",
+                  "link": "/b-referansi",
+                  "order": 2,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                },
+                {
+                  "text": "c referansı",
+                  "link": "/c-referansi",
+                  "order": 3,
+                  "css": "text-black",
+                  "functionType": "childButton"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Vizyon",
+          "link": "/vizyon",
+          "order": 4,
+          "css": "text-black",
+          "functionType": "childButton"
+        },
+        {
+          "text": "Misyon",
+          "link": "/misyon",
+          "order": 5,
+          "css": "text-black",
+          "functionType": "childButton"
+        }
+      ]
+    },
+    {
+      "text": "İletişim",
+      "link": "/iletisim",
+      "order": 4,
+      "css": "text-black",
+      "functionType": "mainButton"
+    },
+    {
+      "text": "Kayıt Ol",
+      "link": "/kayit-ol",
+      "order": 5,
+      "css": "text-black",
+      "functionType": "mainButton"
+    },
+    {
+      "text": "Giriş Yap",
+      "link": "/giris-yap",
+      "order": 6,
+      "css": "text-black",
+      "functionType": "mainButton"
+    }
+  ]
+}
