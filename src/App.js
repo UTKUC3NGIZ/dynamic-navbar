@@ -41,7 +41,7 @@ function App() {
               {buttons.text}
             </a>
             {typeof buttons.parentButton === "object" ? (
-              <div className="hidden group-focus-within/main:!flex delay-150">
+              <div className="hidden group-focus-within/main:!flex delay-150 " tabindex="0" >
                 <ul className="flex flex-col pt-2 text-white md:absolute  w-full md:text-center text-left ">
                   {buttons.parentButton.map((parentButton) => (
                     <li
@@ -56,7 +56,7 @@ function App() {
                         {parentButton.text}
                       </a>
                       {typeof parentButton.childButtons === "object" ? (
-                        <ul className="hidden group-focus-within/child:flex  flex-col pb-2 ">
+                        <ul className="hidden group-focus-within/child:flex  flex-col pb-2 " tabindex="0" >
                           {parentButton.childButtons.map((childButtons) => (
                             <li key={childButtons.order} className="flex">
                               <a
