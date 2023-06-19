@@ -18,7 +18,6 @@ function App() {
   const toggleMenu = () => {
     setHamburgerMenu(!hamburgerMenu);
   };
-  console.log(hamburgerMenu);
   return (
     <nav
       className={jsonData.navbarColor}
