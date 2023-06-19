@@ -1,4 +1,6 @@
+import { useState } from "react";
 import jsonData from "./data/data.json";
+import { AiOutlineMenu } from "react-icons/ai";
 
 function App() {
   function handleLinkClickMain(e, data) {
@@ -11,9 +13,22 @@ function App() {
       e.preventDefault();
     }
   }
+
+  const [hamburgerMenu, setHamburgerMenu] = useState(false);
+  const toggleMenu = () => {
+    setHamburgerMenu(!hamburgerMenu);
+  };
+  console.log(hamburgerMenu);
   return (
-    <nav className={`${jsonData.navbarColor} md:w-max`}>
-      <ul className="flex flex-row  ">
+    <nav
+      className={jsonData.navbarColor}
+    >
+      <AiOutlineMenu className="md:hidden block m-5 text-white" onClick={toggleMenu} />
+      <ul
+        className={`md:flex md:flex-row flex-col hidden ${
+          hamburgerMenu ? "!flex" : "hidden"
+        }`}
+      >
         {jsonData.buttons.map((buttons) => (
           <li
             key={buttons.order}
@@ -28,7 +43,7 @@ function App() {
             </a>
             {typeof buttons.parentButton === "object" ? (
               <div className="hidden group-focus-within/main:!flex delay-150">
-                <ul className="flex flex-col pt-2 text-white absolute w-full text-center">
+                <ul className="flex flex-col pt-2 text-white md:absolute  w-full md:text-center text-left ">
                   {buttons.parentButton.map((parentButton) => (
                     <li
                       key={parentButton.order}

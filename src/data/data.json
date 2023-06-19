@@ -1,46 +1,46 @@
 {
-  "navbarColor": "my-10 w-max m-auto rounded-lg bg-gradient-to-r from-[#EF629F] to-[#f0d88a] shadow-inner drop-shadow-2xl ",
+  "navbarColor": "md:my-10 md:w-max md:m-auto md:rounded-lg md:blcok flex flex-col bg-gradient-to-r justify-end from-[#EF629F] to-[#f0d88a] shadow-inner drop-shadow-2xl  ",
   "buttons": [
     {
       "text": "Anasayfa",
       "link": "/anasayfa",
       "order": 1,
-      "css": "text-white border-r-2 hover:opacity-80 text-3xl py-8 px-20",
+      "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
       "functionType": "mainButton"
     },
     {
       "text": "Hizmetlerimiz",
       "link": "/hizmetler",
       "order": 2,
-      "css": "text-white border-r-2 hover:opacity-80 text-3xl py-8 px-20",
+      "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
       "functionType": "mainButton",
       "parentButton": [
         {
           "text": "Teknik Hizmetlerimiz",
           "link": "/teknik-hizmetler",
           "order": 1,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "parentButton",
           "childButtons": [
             {
               "text": "Frontend Teknolojileri",
               "link": "/frontend-teknolojileri",
               "order": 1,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "Backend Teknolojileri",
               "link": "/backend-teknolojileri",
               "order": 2,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "AWS Hizmetleri",
               "link": "/aws-hizmetleri",
               "order": 3,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             }
           ]
@@ -49,35 +49,35 @@
           "text": "Danışmanlık Hizmetlerimiz",
           "link": "/danismanlik-hizmetleri",
           "order": 2,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "parentButton",
           "childButtons": [
             {
               "text": "Teknik Destek",
               "link": "/teknik-destek",
               "order": 1,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "Bilgilendirme Hizmetleri",
               "link": "/bilgilendirme-hizmetleri",
               "order": 2,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "Mentorluk Hizmetleri",
               "link": "/mentorluk-hizmetleri",
               "order": 3,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "Danışmanlık Eğitimleri",
               "link": "/danismanlik-egitimleri",
               "order": 4,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton",
               "childButtons": [
                 {
@@ -100,21 +100,21 @@
               "text": "Eğitim Öğretim Planlama",
               "link": "/egitim-ogretim-planlama",
               "order": 5,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "Yazılım Danışmanlığı",
               "link": "/yazilim-danismanligi",
               "order": 6,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             },
             {
               "text": "Proje Danışmanlığı",
               "link": "/proje-danismanligi",
               "order": 7,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton"
             }
           ]
@@ -123,7 +123,7 @@
           "text": "Hatalı Altyapı Onarımı",
           "link": "/altyapi-onarimi",
           "order": 3,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "parentButton"
         }
       ]
@@ -132,35 +132,35 @@
       "text": "Hakkımızda",
       "link": "/hakkimizda",
       "order": 3,
-      "css": "text-white border-r-2 hover:opacity-80 text-3xl py-8 px-20",
+      "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
       "functionType": "mainButton",
       "parentButton": [
         {
           "text": "Biz Kimiz?",
           "link": "/biz-kimiz",
           "order": 1,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "childButton"
         },
         {
           "text": "Kurumsal",
           "link": "/kurumsal",
           "order": 2,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "childButton"
         },
         {
           "text": "Referanslarımız",
           "link": "/referanslarimiz",
           "order": 3,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "parentButton",
           "childButtons": [
             {
               "text": "Geçmiş Referanslar",
               "link": "/gecmis-referanslar",
               "order": 1,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton",
               "childButtons": [
                 {
@@ -190,7 +190,7 @@
               "text": "Gelecek Referanslar",
               "link": "/gelecek-referanslar",
               "order": 2,
-              "css": "w-full text-base border-2 py-3 bg-[#F2B191] hover:bg-opacity-90 rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
+              "css": "mt-1 w-full text-base md:border-2 border-b-2 md:border-b-0 pl-36 md:pl-0 py-3 md:bg-[#F2B191] hover:bg-opacity-90 rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  hover:bg-[#f2b191dc] duration-300",
               "functionType": "childButton",
               "childButtons": [
                 {
@@ -222,14 +222,14 @@
           "text": "Vizyon",
           "link": "/vizyon",
           "order": 4,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "childButton"
         },
         {
           "text": "Misyon",
           "link": "/misyon",
           "order": 5,
-          "css": "border-2 border-white py-5  text-lg bg-[#F38D98]  rounded-lg shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
+          "css": "md:border-2 border-white py-5 pl-28 md:pl-0 md:pl-0  text-lg md:bg-[#F38D98] bg-transparent md:border-b-0 border-b-2  rounded-lg md:shadow-inner drop-shadow-2xl transition ease-in-out   hover:-translate-y-1 hover:scale-110 hover:bg-[#e0747f] duration-300 ",
           "functionType": "childButton"
         }
       ]
@@ -238,21 +238,21 @@
       "text": "İletişim",
       "link": "/iletisim",
       "order": 4,
-      "css": "text-white border-r-2 hover:opacity-80 text-3xl py-8 px-20",
+      "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
       "functionType": "mainButton"
     },
     {
       "text": "Kayıt Ol",
       "link": "/kayit-ol",
       "order": 5,
-      "css": "text-white border-r-2 hover:opacity-80 text-3xl py-8 px-20",
+      "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
       "functionType": "mainButton"
     },
     {
       "text": "Giriş Yap",
       "link": "/giris-yap",
       "order": 6,
-      "css": "text-white border-r-2 hover:opacity-80 text-3xl py-8 px-20",
+      "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
       "functionType": "mainButton"
     }
   ]
