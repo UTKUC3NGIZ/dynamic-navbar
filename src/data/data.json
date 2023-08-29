@@ -2,7 +2,7 @@
   "navbarColor": "md:my-10 md:w-max md:m-auto md:rounded-lg md:blcok flex flex-col bg-gradient-to-r justify-end from-[#EF629F] to-[#f0d88a] shadow-inner drop-shadow-2xl  ",
   "buttons": [
     {
-      "text": "Anasayfa",
+      "text": "Deneme",
       "link": "/anasayfa",
       "order": 1,
       "css": "text-white md:border-r-2 border-b-2 md:border-b-0 hover:opacity-80 text-3xl py-8 px-20",
